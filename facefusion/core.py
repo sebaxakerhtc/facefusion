@@ -108,8 +108,8 @@ def get_argument_parser():
 	available_ui_layouts = list_directory('facefusion/uis/layouts')
 	group_uis = program.add_argument_group('uis')
 	group_uis.add_argument('--ui-layouts', help = wording.get('help.ui_layouts').format(choices = ', '.join(available_ui_layouts)), default = config.get_str_list('uis.ui_layouts', 'default'), nargs = '+')
-    return program
-
+	return program
+    
 def cli() -> None:
 	run(get_argument_parser())
 
