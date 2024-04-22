@@ -19,12 +19,16 @@ Before installing this you should install
 4) Visual Studio build tool `winget install -e --id Microsoft.VisualStudio.2022.BuildTools --override "--wait --add Microsoft.VisualStudio.Workload.NativeDesktop --includeRecommended"`</br>
 **During installation, ensure to select the Desktop Development with C++ package**
 
+After that you can go to extensions tab in Automatic1111 WebUI, install from url
+Enter `https://github.com/sebaxakerhtc/sd-webui-facefusion.git`
+click "Install"
+Go to installed, click "Apply and restart UI"
+Enjoy!
+
+From original
+-------------
+
 Get started with the [installation](https://docs.facefusion.io/installation) guide.
-
-
-
-
-
 
 Documentation
 -------------
