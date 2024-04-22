@@ -127,7 +127,7 @@ def register_args(program : ArgumentParser) -> None:
 
 
 def apply_args(program : ArgumentParser) -> None:
-	args = program.parse_args()
+	args = program.parse_args([])
 	frame_processors_globals.frame_enhancer_model = args.frame_enhancer_model
 	frame_processors_globals.frame_enhancer_blend = args.frame_enhancer_blend
 

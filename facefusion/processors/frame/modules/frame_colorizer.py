@@ -102,7 +102,7 @@ def register_args(program : ArgumentParser) -> None:
 
 
 def apply_args(program : ArgumentParser) -> None:
-	args = program.parse_args()
+	args = program.parse_args([])
 	frame_processors_globals.frame_colorizer_model = args.frame_colorizer_model
 	frame_processors_globals.frame_colorizer_blend = args.frame_colorizer_blend
 	frame_processors_globals.frame_colorizer_size = args.frame_colorizer_size
