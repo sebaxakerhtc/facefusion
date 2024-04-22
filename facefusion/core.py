@@ -33,7 +33,10 @@ warnings.filterwarnings('ignore', category = UserWarning, module = 'gradio')
 
 
 def get_argument_parser():
-	signal.signal(signal.SIGINT, lambda signal_number, frame: destroy())
+	try:
+		signal.signal(signal.SIGINT, lambda signal_number, frame: destroy())
+	except ValueError:
+		pass
 	program = ArgumentParser(formatter_class = lambda prog: HelpFormatter(prog, max_help_position = 160), add_help = False)
 	# general
 	program.add_argument('-s', '--source', help = wording.get('help.source'), action = 'append', dest = 'source_paths', default = config.get_str_list('general.source_paths'))
