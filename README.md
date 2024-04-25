@@ -4,10 +4,7 @@ FaceFusion 2.5.2! as a tab for Automatic1111
 Preview
 -------
 
-![Preview](https://github.com/sebaxakerhtc/sd-webui-facefusion/assets/32651506/7df05646-2840-4507-948e-7a0802ee9b0a)
-
-
-
+![Preview](https://github.com/sebaxakerhtc/sd-webui-facefusion/assets/32651506/f13f6f62-886b-4fe4-b859-254dc24fa69d)
 
 Installation
 ------------
