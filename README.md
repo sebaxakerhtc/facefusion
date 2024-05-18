@@ -1,4 +1,4 @@
-FaceFusion 2.5.2! as a tab for Automatic1111
+FaceFusion 2.5.3! as a tab for Automatic1111
 ==========
 
 Preview
